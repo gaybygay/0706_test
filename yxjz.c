@@ -1,9 +1,11 @@
 #include <stdio.h>
 
+#define NUM 2
 
 int main()
 {
-    printf("l%do%dl\n",2,2);
+    int i = NUM;
+    printf("l%do%dl\n",i,i);
 
     return 0;
 }
